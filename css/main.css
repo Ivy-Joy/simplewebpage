@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Judson&family=Sansita&display=swap');
+html{
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+
+li{
+    list-style: none;
+    padding: .5rem;
+}
+
+button{
+    /* padding: .6rem; */
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-family: 'Sansita', sans-serif;
+}
+button:hover{
+    background-color: #c5078f;
+    color: #ffff;
+    transition: .3s;
+}
+header{
+    font-size: 2rem;
+    color: #c5078f;
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+}
+
+.head{
+    font-size: 1.3rem;
+    color: #230a7e;
+    text-align: center;
+    font-family: 'Sansita', sans-serif;
+}
+label{
+    padding: .3rem;
+}
+
+input{
+    border: none;
+    border-radius: 4px;
+    padding: .3rem;
+    width: 90%;
+}
+input:focus{
+    border: none;
+}
+
+a{
+    text-decoration: none;
+    color: none;
+}
+a:hover{
+    cursor: pointer;
+}
+
+
+.container{
+    font-family: 'Judson', serif!important;
+    font-size: 1rem;
+}
+
+.navbar{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.logo{
+    font-size: 2rem;
+    padding: 1rem 0 .5rem 3rem;
+    letter-spacing: .5rem;
+    color: #99046c !important;
+}
+
+.nav-list{
+    display: flex;
+    margin-right: 2rem;
+}
+.list-item{
+    font-size: 1.3rem;
+}
+.link-item:hover{
+    border-radius: .2rem;
+    padding: .1rem;
+    color: rgb(55, 3, 59);
+    transition: .3s;
+    border-bottom: 2px solid #000000;
+}
+
+.banner{
+    /* margin-top: 60px; */
+    left: 0;
+    width: 100%;
+    /* position: absolute; */
+    background-color: rgb(220, 233, 220);
+}
+
+.welcome-image{
+    padding: 1rem;
+}
+
+.img-text{
+    width: 50%;
+    position: absolute;
+    /* top: 50%; */
+    bottom: 50%;
+    text-align: center;
+}
+
+.info{
+    font-size: 1.9rem;
+    font-family: 'Sansita', sans-serif;
+    color: #c5078f;
+    position: relative;
+    opacity: 1;
+    z-index: 1;
+}
+.btn-info{
+    cursor: pointer;
+    color: #ffff;
+    background-color: green;
+}
+
+.btn-info:after{
+    padding: 1rem;
+    content: " \221A";
+}
+.btn-about{
+    margin-left: 2rem;
+    cursor: pointer;
+    color: #ffff;
+    background-color: rgb(0, 45, 128);
+}
+
+
+#home-info{
+    padding: 1rem;
+}
+
+.top-deals{
+    color: #105c09;
+    font-size: 1.5rem;
+}
+
+.main-content{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}
+.cont{
+    padding: 1rem;
+}
+.cont-info{
+    padding: 1rem;
+    border-radius: .4rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+
+}
+
+.flight-img{
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.flight-info{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.book-flight{
+    background-color: lightgrey;
+    width: 80%;
+    margin: 1rem auto;
+    padding: 1rem;
+}
+.bk-flight{
+    display: flex;
+    padding: 2rem;
+    justify-content: space-between;
+}
+.select-flight{
+    width: 33%;
+}
+.label{
+    font-size: 1.2rem;
+}
+#dept, #arrival{
+    border: none;
+    border-radius: 4px;
+    padding: .3rem;
+    width: 90%;
+    background-color: #ffff;
+}
+.action{
+    justify-content: right;
+    align-items: right;
+    text-align: right;
+}
+
+.book-fgt{
+    margin: 1rem 4rem 1rem 0;
+    background-color: #c876dd;
+}
+
+.aboutus{
+    padding: 2rem;
+    width: 70%;
+    margin: 2rem auto;
+    display: flex;
+}
+
+.about-text{
+    width: 50%;
+    padding: 2rem;
+    font-family: 'Sansita', sans-serif;
+}
+
+.about-image{
+    width: 50%;
+    padding: 2rem;
+}
+.img-abt{
+    padding: 2rem;
+    border-radius: .5rem;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.about-img, .about-text{
+    padding: 2rem;
+}
+
+.img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.contact{
+    width: 70%;
+    margin: 1rem auto;
+}
+#contact{
+    background-color: lightgray;
+    padding: 2rem;
+}
+#fname, #lname, #email, #query{
+    padding: 1rem;
+    margin: 1rem auto;
+}
+
+#query{
+    border: none;
+    border-radius: 4px;
+    padding: 1rem;
+    width: 90%;
+    background-color: #ffff;
+}
